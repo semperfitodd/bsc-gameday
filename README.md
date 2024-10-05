@@ -11,9 +11,9 @@ vim ~/.aws/credentials
 ```
 * **Append**
 ```bash
-role_arn=arn:aws:iam::704855531002:role/BlueSentry
-source_profile=bluesentrymfa
-region=us-east-1
+[eks-gameday]
+aws_access_key_id = AK...
+aws_secret_access_key = za...
 ```
 
 ### AWS CLI Command to Connect to EKS Cluster
@@ -21,19 +21,19 @@ region=us-east-1
 Once the profile is added, you can use the AWS CLI to connect to our EKS cluster:
 
 ```bash
-aws eks update-kubeconfig --name dreamcanvas_dev --region us-east-1 --profile bscsandbox
+aws eks update-kubeconfig --name dreamcanvas_dev --region us-east-1 --profile eks-gameday
 ```
 
 Verify EKS Cluster Connectivity
 After connecting to the EKS cluster, check if the connectivity is working by running the following command:
 
 ```bash
-k get no
+k get po -n kafka
 ```
 
 If the connection is successful, you should see a single node in the EKS cluster.
 
-![nodes.png](images/nodes.png)
+![pods.png](images/pods.png)
 
 ### Consuming the Kafka Topic
 
@@ -42,7 +42,7 @@ To consume messages from the correct Kafka topic:
 * **Run Kafka CLI in cluster**
 
 ```bash
-kubectl run <YOUR_TEAM_NAME> -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
+kubectl run <YOUR_TEAM_NAME> -l=kafka=consumer -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
 kafka-console-consumer --bootstrap-server kafka:9092 --topic gameday --from-beginning
 ```
 
