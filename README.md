@@ -98,28 +98,28 @@ You can use a home-grown model or any cloud managed models.
    Prepare your solution components in advance, such as scripts, models, and visualizations, to streamline the process during the competition.
 
 ## Teams
-| **Team 1**                    | **Team 2**                    | **Team 3**                     |
-|--------------------------------|--------------------------------|---------------------------------|
-| Ronda Lorraine Peoples         | Steffan Paul Williams          | Khane Mitchell                  |
-| Mahmood Rahimi                 | Mahmood Rahimi                 | Kevin Robert Riste              |
-| Gabriel Tizatto                | Gustavo Zanotto                | William H Ahlborn               |
-| Robert Lee Douglas             | Patrick Agboola                | Mehmet Güngören                 |
-| Caleb Cohen                    | Jaiver Lamar Hollingsworth     | Jean Pimmel                     |
+| **Team 1**      | **Team 2**        | **Team 3**       |
+|-----------------|-------------------|------------------|
+| Ronda Peoples   | Steffan Williams  | Khane Mitchell   |
+| Mahmood Rahimi  | Mahmood Rahimi    | Kevin Riste      |
+| Gabriel Tizatto | Gus Zanotto       | Will Ahlborn     |
+| Robbie Douglas  | Patrick Agboola   | Mehmet Güngören  |
+| Caleb Cohen     | Jay Hollingsworth | Jean Pimmel      |
 
-| **Team 4**                    | **Team 5**                    | **Team 6**                     |
-|--------------------------------|--------------------------------|---------------------------------|
-| Cody James Schuyler            | Ashley Lauren Ellis            | Michael Scott Berrigan          |
-| Michael Olivieri               | Dallin Rasmuson                | Jeremy K Elam                   |
-| Andrew Deweeveer               | Thomas James Behnken           | Stephen Edward Opilo            |
-| Mackenzie Sophia Graham        | Jon Ide                        | Nikita Usenko                   |
-| Justin-Pedro Kelechi Nwosu     | John Pratt                     | Dastan M Rahimi                 |
-|                                |                                | Bola                            |
+| **Team 4**                 | **Team 5**           | **Team 6**        |
+|----------------------------|----------------------|-------------------|
+| Cody Schuyler              | Ashley Ellis         | Michael Berrigan  |
+| Michael Olivieri           | Dallin Rasmuson      | Jeremy Elam       |
+| Andrew Deweeveer           | Thomas Behnken       | Steve Opilo       |
+| Kenzie Graham              | Jon Ide              | Nikita Usenko     |
+| Justin-Pedro Kelechi Nwosu | John Pratt           | Dastan Rahimi     |
+|                            |                      | Bola Abiodun      |
 
-| **Team 7**                    | **Team 8**         |
-|--------------------------------|--------------------|
-| Anthony Daniel Coccaro         | Alexis Perez       |
-| J Robert Bullington            | David Van Ginneken |
-| Christopher Mackubin           | Noor Alsabahi      |
-| Beshr Alamir                   | Aric Hansen        |
-| Brian Joseph Riste             | Ryan Young         |
-| Nathan O’Connell               | Nolan Johnson      |
+| **Team 7**      | **Team 8**         |
+|-----------------|--------------------|
+| Anthony Coccaro | Alexis Perez       |
+| JR Bullington   | David Van Ginneken |
+| CMack           | Noor Alsabahi      |
+| Beshr Alamir    | Aric Hansen        |
+| Brian Riste     | Ryan Young         |
+| Nate O’Connell  | Nolan Johnson      |
