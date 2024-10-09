@@ -1,4 +1,4 @@
-# BSC Analytics TacoCon 2024 Gameday
+# BSC Analytics TacoCon 2024 Data Bakeoff
 
 ## AWS Credentials Setup and EKS Cluster Access
 
@@ -101,7 +101,7 @@ You can use a home-grown model or any cloud managed models.
 | **Team 1**      | **Team 2**        | **Team 3**      | **Team 4**        |
 |-----------------|-------------------|-----------------|-------------------|
 | Ronda Peoples   | Steffan Williams  | Khane Mitchell  | Cody Schuyler     |
-| Mahmood Rahimi  | Mahmood Rahimi    | Kevin Riste     | Michael Olivieri  |
+| Mahmood Rahimi  | Max Rahimi        | Kevin Riste     | Michael Olivieri  |
 | Gabriel Tizatto | Gus Zanotto       | Will Ahlborn    | Andrew Deweeveer  |
 | Robbie Douglas  | Patrick Agboola   | Mehmet Güngören | Kenzie Graham     |
 | Caleb Cohen     | Jay Hollingsworth | Jean Pimmel     | Kelechi Nwosu     |
@@ -111,6 +111,6 @@ You can use a home-grown model or any cloud managed models.
 | Ashley Ellis         | Michael Berrigan  | Anthony Coccaro | Alexis Perez       |
 | Dallin Rasmuson      | Jeremy Elam       | JR Bullington   | David Van Ginneken |
 | Thomas Behnken       | Steve Opilo       | CMack           | Noor Alsabahi      |
-| Jon Ide              | Nikita Usenko     | Beshr Alamir    | Aric Hansen        |
-| John Pratt           | Dastan Rahimi     | Brian Riste     | Ryan Young         |
-|                      | Bola Abiodun      | Nate O’Connell  | Nolan Johnson      |
+| Jon Ide              | Nikita Usenko     | Beshr Alamir    | Ryan Young         |
+| John Pratt           | Dastan Rahimi     | Brian Riste     | Nolan Johnson      |
+|                      | Bola Abiodun      | Nate O’Connell  |                    |
