@@ -56,7 +56,6 @@ Use a ML model to find outliers in the following areas:
 
 * Log level
 * Response time
-* Status Code
 
 You can use a home-grown model or any cloud managed models.
 
@@ -66,8 +65,61 @@ You can use a home-grown model or any cloud managed models.
 * Google Vertex
 * Any other
 
-### Winners
+### What we did
 
-You will be tested on accuracy and completeness of your model.
+1. **Get access to the stream locally**  
+   Access the Kafka stream by consuming the logs from the `gameday` topic as described in the previous section.
 
-Winners will share their solution.
+2. **Find a way to clean and store logs**  
+   Use appropriate tools or scripts to clean the logs, ensuring the data is structured and ready for analysis. You can store the logs in a temporary database or cloud storage (e.g., S3), depending on your team's setup.
+
+3. **Train a model** (if necessary - we used RCF)  
+   If your solution requires training a model, decide which ML model to use. We used **RCF (Random Cut Forest)**, but you can choose any model or cloud-based service. Ensure the model is trained on clean log data to detect outliers in log level and response time.
+
+4. **Find a way to append that outlier score to the data** (if necessary)  
+   After detecting outliers, append the outlier score to the logs for further analysis or reporting.
+
+5. **Visualize the data and display outlier logs**  
+   Visualize the outlier logs using a tool of your choice (e.g., Grafana, Kibana, or any cloud-native solution).
+![quicksight.png](images/quicksight.png)
+
+### Recommendation to Get with Your Team
+
+- **Decide what cloud and solution**  
+   Collaborate with your team to choose the cloud provider (AWS, Azure, Google) and solution approach that works best for you.
+
+- **How you are building it**  
+   Plan how you will develop and integrate the solution, from consuming logs to detecting outliers.
+
+- **Confirm you all have access to that cloud sandbox**  
+   Make sure everyone on your team has access to the necessary cloud resources and sandbox environments.
+
+- **Build whatever you want ahead of time**  
+   Prepare your solution components in advance, such as scripts, models, and visualizations, to streamline the process during the competition.
+
+## Teams
+| **Team 1**                    | **Team 2**                    | **Team 3**                     |
+|--------------------------------|--------------------------------|---------------------------------|
+| Ronda Lorraine Peoples         | Steffan Paul Williams          | Khane Mitchell                  |
+| Mahmood Rahimi                 | Mahmood Rahimi                 | Kevin Robert Riste              |
+| Gabriel Tizatto                | Gustavo Zanotto                | William H Ahlborn               |
+| Robert Lee Douglas             | Patrick Agboola                | Mehmet Güngören                 |
+| Caleb Cohen                    | Jaiver Lamar Hollingsworth     | Jean Pimmel                     |
+
+| **Team 4**                    | **Team 5**                    | **Team 6**                     |
+|--------------------------------|--------------------------------|---------------------------------|
+| Cody James Schuyler            | Ashley Lauren Ellis            | Michael Scott Berrigan          |
+| Michael Olivieri               | Dallin Rasmuson                | Jeremy K Elam                   |
+| Andrew Deweeveer               | Thomas James Behnken           | Stephen Edward Opilo            |
+| Mackenzie Sophia Graham        | Jon Ide                        | Nikita Usenko                   |
+| Justin-Pedro Kelechi Nwosu     | John Pratt                     | Dastan M Rahimi                 |
+|                                |                                | Bola                            |
+
+| **Team 7**                    | **Team 8**         |
+|--------------------------------|--------------------|
+| Anthony Daniel Coccaro         | Alexis Perez       |
+| J Robert Bullington            | David Van Ginneken |
+| Christopher Mackubin           | Noor Alsabahi      |
+| Beshr Alamir                   | Aric Hansen        |
+| Brian Joseph Riste             | Ryan Young         |
+| Nathan O’Connell               | Nolan Johnson      |
