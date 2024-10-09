@@ -98,28 +98,19 @@ You can use a home-grown model or any cloud managed models.
    Prepare your solution components in advance, such as scripts, models, and visualizations, to streamline the process during the competition.
 
 ## Teams
-| **Team 1**      | **Team 2**        | **Team 3**       |
-|-----------------|-------------------|------------------|
-| Ronda Peoples   | Steffan Williams  | Khane Mitchell   |
-| Mahmood Rahimi  | Mahmood Rahimi    | Kevin Riste      |
-| Gabriel Tizatto | Gus Zanotto       | Will Ahlborn     |
-| Robbie Douglas  | Patrick Agboola   | Mehmet Güngören  |
-| Caleb Cohen     | Jay Hollingsworth | Jean Pimmel      |
+| **Team 1**      | **Team 2**        | **Team 3**      | **Team 4**        |
+|-----------------|-------------------|-----------------|-------------------|
+| Ronda Peoples   | Steffan Williams  | Khane Mitchell  | Cody Schuyler     |
+| Mahmood Rahimi  | Mahmood Rahimi    | Kevin Riste     | Michael Olivieri  |
+| Gabriel Tizatto | Gus Zanotto       | Will Ahlborn    | Andrew Deweeveer  |
+| Robbie Douglas  | Patrick Agboola   | Mehmet Güngören | Kenzie Graham     |
+| Caleb Cohen     | Jay Hollingsworth | Jean Pimmel     | Kelechi Nwosu     |
 
-| **Team 4**       | **Team 5**           | **Team 6**        |
-|------------------|----------------------|-------------------|
-| Cody Schuyler    | Ashley Ellis         | Michael Berrigan  |
-| Michael Olivieri | Dallin Rasmuson      | Jeremy Elam       |
-| Andrew Deweeveer | Thomas Behnken       | Steve Opilo       |
-| Kenzie Graham    | Jon Ide              | Nikita Usenko     |
-| Kelechi Nwosu    | John Pratt           | Dastan Rahimi     |
-|                  |                      | Bola Abiodun      |
-
-| **Team 7**      | **Team 8**         |
-|-----------------|--------------------|
-| Anthony Coccaro | Alexis Perez       |
-| JR Bullington   | David Van Ginneken |
-| CMack           | Noor Alsabahi      |
-| Beshr Alamir    | Aric Hansen        |
-| Brian Riste     | Ryan Young         |
-| Nate O’Connell  | Nolan Johnson      |
+| **Team 5**           | **Team 6**        | **Team 7**      | **Team 8**         |
+|----------------------|-------------------|-----------------|--------------------|
+| Ashley Ellis         | Michael Berrigan  | Anthony Coccaro | Alexis Perez       |
+| Dallin Rasmuson      | Jeremy Elam       | JR Bullington   | David Van Ginneken |
+| Thomas Behnken       | Steve Opilo       | CMack           | Noor Alsabahi      |
+| Jon Ide              | Nikita Usenko     | Beshr Alamir    | Aric Hansen        |
+| John Pratt           | Dastan Rahimi     | Brian Riste     | Ryan Young         |
+|                      | Bola Abiodun      | Nate O’Connell  | Nolan Johnson      |
