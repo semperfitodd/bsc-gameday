@@ -106,14 +106,14 @@ You can use a home-grown model or any cloud managed models.
 | Robbie Douglas  | Patrick Agboola   | Mehmet Güngören  |
 | Caleb Cohen     | Jay Hollingsworth | Jean Pimmel      |
 
-| **Team 4**                 | **Team 5**           | **Team 6**        |
-|----------------------------|----------------------|-------------------|
-| Cody Schuyler              | Ashley Ellis         | Michael Berrigan  |
-| Michael Olivieri           | Dallin Rasmuson      | Jeremy Elam       |
-| Andrew Deweeveer           | Thomas Behnken       | Steve Opilo       |
-| Kenzie Graham              | Jon Ide              | Nikita Usenko     |
-| Justin-Pedro Kelechi Nwosu | John Pratt           | Dastan Rahimi     |
-|                            |                      | Bola Abiodun      |
+| **Team 4**       | **Team 5**           | **Team 6**        |
+|------------------|----------------------|-------------------|
+| Cody Schuyler    | Ashley Ellis         | Michael Berrigan  |
+| Michael Olivieri | Dallin Rasmuson      | Jeremy Elam       |
+| Andrew Deweeveer | Thomas Behnken       | Steve Opilo       |
+| Kenzie Graham    | Jon Ide              | Nikita Usenko     |
+| Kelechi Nwosu    | John Pratt           | Dastan Rahimi     |
+|                  |                      | Bola Abiodun      |
 
 | **Team 7**      | **Team 8**         |
 |-----------------|--------------------|
