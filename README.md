@@ -39,10 +39,15 @@ If the connection is successful, you should see a single node in the EKS cluster
 
 To consume messages from the correct Kafka topic:
 
+Here are two ways to consume the logs
+1. Run Kafka CLI in cluster
+OR
+2. Simply use `k logs`
+
 * **Run Kafka CLI in cluster**
 
 ```bash
-kubectl run <YOUR_TEAM_NAME> -l=kafka=consumer -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
+k run <YOUR_TEAM_NAME> -l=kafka=consumer -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
 kafka-console-consumer --bootstrap-server kafka:9092 --topic gameday --from-beginning
 ```
 
