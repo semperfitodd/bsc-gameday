@@ -28,7 +28,7 @@ Verify EKS Cluster Connectivity
 After connecting to the EKS cluster, check if the connectivity is working by running the following command:
 
 ```bash
-kubectlget po -n kafka
+kubectl get po -n kafka
 ```
 
 If the connection is successful, you should see a single node in the EKS cluster.
@@ -42,12 +42,12 @@ To consume messages from the correct Kafka topic:
 Here are two ways to consume the logs
 1. Run Kafka CLI in cluster
 OR
-2. Simply use `kubectllogs`
+2. Simply use `kubectl logs`
 
 * **Run Kafka CLI in cluster**
 
 ```bash
-kubectlrun <YOUR_TEAM_NAME> -l=kafka=consumer -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
+kubectl run <YOUR_TEAM_NAME> -l=kafka=consumer -n kafka --rm -i --tty --image=confluentinc/cp-kafka -- \
 kafka-console-consumer --bootstrap-server kafka:9092 --topic gameday --from-beginning
 ```
 
@@ -55,17 +55,17 @@ This command runs a Kafka consumer in the kafka namespace to consume messages fr
 
 ![consumer.png](images/consumer.png)
 
-* **Simply use `kubectllogs`**
+* **Simply use `kubectl logs`**
 
 ```bash
-todd@MacBookPro: Downloads » kubectllogs -n kafka kafka-python-producer -f
+todd@MacBookPro: Downloads » kubectl logs -n kafka kafka-python-producer -f
 {"start": "LOG_START", "log_message": {"log_identifier": "LOG-000000", "timestamp": 1728565962.2251318, "log_level": "DEBUG", "ip_address": "152.142.140.53", "user_id": "e6158ec1-f8c5-4517-b4af-a3954637fcce", "method": "DELETE", "path": "wp-content/list", "status_code": 502, "response_time": 0.146, "message": "Seat west value able major."}, "stop": "LOG_END"}
 {"start": "LOG_START", "log_message": {"log_identifier": "LOG-000001", "timestamp": 1728565965.3893456, "log_level": "INFO", "ip_address": "31.36.210.183", "user_id": "99f56822-ee5e-45e4-81c6-1eb4bffd734e", "method": "DELETE", "path": "app/wp-content/main", "status_code": 404, "response_time": 2.622, "message": "Few its light shoulder play."}, "stop": "LOG_END"}
 {"start": "LOG_START", "log_message": {"log_identifier": "LOG-000002", "timestamp": 1728565986.2584338, "log_level": "ERROR", "ip_address": "116.206.152.219", "user_id": "b14234b4-a2c8-487f-935c-6f307f78d913", "method": "GET", "path": "search/blog", "status_code": 201, "response_time": 1.208, "message": "Available next stuff my network picture simple young."}, "stop": "LOG_END"}
 ```
 
 ```bash
-todd@MacBookPro: temp » kubectllogs -n kafka kafka-python-producer -f | python3 forward.py
+todd@MacBookPro: temp » kubectl logs -n kafka kafka-python-producer -f | python3 forward.py
 LOG-000000 forwarded to next step...
 LOG-000001 forwarded to next step...
 LOG-000002 forwarded to next step...
