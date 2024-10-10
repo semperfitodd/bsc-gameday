@@ -21,7 +21,7 @@ aws_secret_access_key = za...
 Once the profile is added, you can use the AWS CLI to connect to our EKS cluster:
 
 ```bash
-aws eks update-kubeconfig --name eks_kafka_quicksight --region us-east-1 --profile eks-gameday
+aws eks update-kubeconfig --name eks-kafka-quicksight --region us-east-1 --profile eks-gameday
 ```
 
 Verify EKS Cluster Connectivity
